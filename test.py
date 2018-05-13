@@ -1,0 +1,5 @@
+import binascii
+a = "30 82 01 08 02 82 01 01 00 b7 32 c8 fe e9 71 a6 04 85 ad 0c 11 64 df ce 4d ef c8 03 18 87 3f a1 ab fb 3c a6 9f f0 c3 a1 da d4 d8 6e 2b 53 90 fb 24 a4 3e 84 f0 9e e8 5f ec e5 27 44 f5 28 a6 3f 7b de e0 2a f0 c8 af 53 2f 9e ca 05 01 93 1e 8f 66 1c 39 a7 4d fa 5a b6 73 04 25 66 eb 77 7f e7 59 c6 4a 99 25 14 54 eb 26 c7 f3 7f 19 d5 30 70 8f af b0 46 2a ff ad eb 29 ed d7 9f aa 04 87 a3 d4 f9 89 a5 34 5f db 43 91 82 36 d9 66 3c b1 b8 b9 82 fd 9c 3a 3e 10 c8 3b ef 06 65 66 7a 9b 19 18 3d ff 71 51 3c 30 2e 5f be 3d 77 73 b2 5d 06 6c c3 23 56 9a 2b 85 26 92 1c a7 02 b3 e4 3f 0d af 08 79 82 b8 36 3d ea 9c d3 35 b3 bc 69 ca f5 cc 9d e8 fd 64 8d 17 80 33 6e 5e 4a 5d 99 c9 1e 87 b4 9d 1a c0 d5 6e 13 35 23 5e df 9b 5f 3d ef d6 f7 76 c2 ea 3e bb 78 0d 1c 42 67 6b 04 d8 f8 d6 da 6f 8b f2 44 a0 01 ab 02 01 03"
+b = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMYfnvWtC8Id5bPKae5yXSxQTt+Zpul6AnnZWfI2TtIarvjHBFUtXRo96y7hoL4VWOPKGCsRqMFDkrbeUjRrx8iL914/srnyf6sh9c8Zk04xEOpK1ypvBz+Ks4uZObtjnnitf0NBGdjMKxveTq+VE7BWUIyQjtQ8mbDOsiLLvh7wIDAQAB"
+#c = binascii.a2b_hex(a)
+print(len(b)*8)
